@@ -18,6 +18,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.1.2</version>
+        <relativePath></relativePath>
     </parent>
 
     <repositories>
@@ -105,8 +106,8 @@
 
             <plugin>
                 <groupId>com.vaadin</groupId>
-                <artifactId>vaadin-maven-plugin</artifactId>
-                <version>${vaadin.version}</version>
+                <artifactId>flow-maven-plugin</artifactId>
+                <version>24.1.8</version>
                 <executions>
                     <execution>
                         <goals>
@@ -139,8 +140,8 @@
                 <plugins>
                     <plugin>
                         <groupId>com.vaadin</groupId>
-                        <artifactId>vaadin-maven-plugin</artifactId>
-                        <version>${vaadin.version}</version>
+                        <artifactId>flow-maven-plugin</artifactId>
+                        <version>24.1.8</version>
                         <executions>
                             <execution>
                                 <goals>
